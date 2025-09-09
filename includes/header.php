@@ -1,19 +1,17 @@
-  <header class="header-section">
-    
-    <div class="header-bottom">
-      <a href="index.php" class="site-logo">
-        <h4 style="color:BLACK"><strong>SECURE-G</strong></h4>
-      </a>
-    
-      <div class="container">
-        <ul class="main-menu">
-          <li><a href="home.php" >Home</a></li>
-          <li><a href="index.php">Hiring Form</a></li>
-          <li><a href="search-request.php">Request Status</a>
-                     </li>
-          <li><a href="admin/login.php">Admin</a></li>
-          <li><a href="client.php">Client</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+<!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-BLACK navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="dashboard.php" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="logout.php" class="nav-link">Logout</a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
